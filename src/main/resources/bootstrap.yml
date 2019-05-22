@@ -1,0 +1,7 @@
+spring:  
+  application:
+    name: eureka-server # Este mismo nombre debe tener el yml que está en git
+  cloud:
+    config:
+      failFast: true
+      uri: http://localhost:2222
