@@ -3,5 +3,5 @@ spring:
     name: eureka-server # Este mismo nombre debe tener el yml que está en git
   cloud:
     config:
-      failFast: true
+      failFast: true # Para que se reinicie rapidamente cada vez que no responda el config server, al levantar con docker
       uri: http://config-server:1111
